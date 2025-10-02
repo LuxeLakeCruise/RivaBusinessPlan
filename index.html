@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIVA LUXURY CHARTER - Business Plan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-fixed">
+        <div class="nav-container">
+            <div class="nav-logo">🚤 RIVA LUXURY CHARTER</div>
+            <div class="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#summary" class="nav-link">Sintesi</a>
+                <a href="#financials" class="nav-link">Finanza</a>
+                <a href="#strategy" class="nav-link">Strategia</a>
+                <a href="#advantages" class="nav-link">Vantaggi</a>
+                <a href="#exit" class="nav-link">ROI</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">🚤 RIVA LUXURY CHARTER</h1>
+                <p class="hero-subtitle">Business Plan Quinquennale 2026-2030<br>💎 Esperienza Esclusiva sul Lago di Como</p>
+                <div class="hero-metrics">
+                    <div class="metric-card">
+                        <div class="metric-value" data-target="930">0</div>
+                        <div class="metric-label">Investimento (k€)</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" data-target="368">0</div>
+                        <div class="metric-label">ROI % in 5 anni</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" data-target="13000">0</div>
+                        <div class="metric-label">Valore finale (k€)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Summary -->
+    <section id="summary" class="section">
+        <div class="container">
+            <h2 class="section-title">🎯 Executive Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3>💰 Investimento</h3>
+                    <p class="big-number">930.000€</p>
+                    <p>Capitale iniziale per acquisizione flotta e setup operativo</p>
+                </div>
+                <div class="summary-card">
+                    <h3>🏢 Valore Società</h3>
+                    <p class="big-number">13.000.000€</p>
+                    <p>Valutazione enterprise dopo 5 anni di operatività</p>
+                </div>
+                <div class="summary-card">
+                    <h3>📊 ROI</h3>
+                    <p class="big-number">368%</p>
+                    <p>Ritorno sull'investimento in 5 anni (46% annuo)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financial Projections -->
+    <section id="financials" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">📈 Proiezioni Finanziarie</h2>
+            <div class="chart-container">
+                <canvas id="profitsChart"></canvas>
+            </div>
+            <div class="financial-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Anno</th>
+                            <th>Tour</th>
+                            <th>Imbarcazioni</th>
+                            <th>Utili Netti</th>
+                            <th>ROI %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>2026</strong></td>
+                            <td>900</td>
+                            <td>3</td>
+                            <td><strong>589.986€</strong></td>
+                            <td>63%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>2027</strong></td>
+                            <td>1.500</td>
+                            <td>5</td>
+                            <td><strong>951.920€</strong></td>
+                            <td>102%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>2028</strong></td>
+                            <td>2.100</td>
+                            <td>7</td>
+                            <td><strong>1.432.844€</strong></td>
+                            <td>154%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>2029</strong></td>
+                            <td>2.400</td>
+                            <td>8</td>
+                            <td><strong>2.362.864€</strong></td>
+                            <td>254%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>2030</strong></td>
+                            <td>3.000</td>
+                            <td>10</td>
+                            <td><strong>3.444.140€</strong></td>
+                            <td>370%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Growth Strategy -->
+    <section id="strategy" class="section">
+        <div class="container">
+            <h2 class="section-title">🚀 Strategia di Crescita</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2026</div>
+                    <div class="timeline-content">
+                        <h3>🌟 FASE 1: LANCIO</h3>
+                        <p>3 Riva Ariston d'epoca, 900 tour stagionali, target luxury internazionale</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2027</div>
+                    <div class="timeline-content">
+                        <h3>📈 FASE 2: ESPANSIONE</h3>
+                        <p>+2 Riva Tritone, partnership hotel 5 stelle, 1.500 tour annuali</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2028</div>
+                    <div class="timeline-content">
+                        <h3>💎 FASE 3: CONSOLIDAMENTO</h3>
+                        <p>7 imbarcazioni premium, 2.100 tour, finanziamento clienti</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2029</div>
+                    <div class="timeline-content">
+                        <h3>🎯 FASE 4: PREMIUM</h3>
+                        <p>8 imbarcazioni, 2.400 tour, market leadership consolidata</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2030</div>
+                    <div class="timeline-content">
+                        <h3>👑 FASE 5: LEADERSHIP</h3>
+                        <p>10 imbarcazioni, 3.000 tour, exit strategy execution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitive Advantages -->
+    <section id="advantages" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">🏆 Competitive Advantages</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">🛥️</div>
+                    <h3>Flotta Esclusiva</h3>
+                    <p>Unica collezione di Riva d'epoca sul lago con restoration di livello museale</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">💎</div>
+                    <h3>Posizionamento Premium</h3>
+                    <p>Target UHNW non price-sensitive, prezzo giustificato da esperienza autentica</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🚧</div>
+                    <h3>Barriere Ingresso</h3>
+                    <p>Costi elevati acquisizione imbarcazioni d'epoca e know-how specializzato</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🤝</div>
+                    <h3>Network Luxury</h3>
+                    <p>Partnership consolidate con hotel 5 stelle e access privilegiato location esclusive</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exit Strategy -->
+    <section id="exit" class="section">
+        <div class="container">
+            <h2 class="section-title">💰 Exit Strategy & ROI</h2>
+            <div class="exit-grid">
+                <div class="exit-card">
+                    <h3>🏢 Valutation Anno 5</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="100"></div>
+                    </div>
+                    <p class="exit-value">13.000.000€</p>
+                </div>
+                <div class="exit-card">
+                    <h3>📊 Valore Quota Investitore</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="80"></div>
+                    </div>
+                    <p class="exit-value">2.600.000€</p>
+                </div>
+                <div class="exit-card">
+                    <h3>🚀 ROI Totale</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="100"></div>
+                    </div>
+                    <p class="exit-value">368%</p>
+                </div>
+            </div>
+            <div class="exit-options">
+                <h3>✨ Exit Options</h3>
+                <ul>
+                    <li>Trade sale a gruppo luxury internazionale</li>
+                    <li>Management buyout</li>
+                    <li>IPO mercati specializzati</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>🎪 Investment Opportunity</h2>
+            <p class="cta-subtitle">Opportunità irripetibile nel luxury charter nautico</p>
+            <div class="cta-highlights">
+                <span>✅ Market Timing Perfetto</span>
+                <span>✅ Asset Unici</span>
+                <span>✅ Location Premium</span>
+                <span>✅ Exit Strategy Chiara</span>
+            </div>
+            <p class="cta-quote">"Sul Lago di Como, dove ogni onda racconta una storia di eleganza senza tempo, Riva Luxury Charter scrive il futuro del luxury charter nautico."</p>
+            <div class="cta-recommendation">
+                <strong>🚀 RECOMMENDATION: STRONG BUY</strong>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Riva Luxury Charter - Business Plan Quinquennale</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
